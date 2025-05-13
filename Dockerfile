@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:18-slim
 
 # Install nginx and supervisor
 RUN apt update && apt install -y nginx supervisor
