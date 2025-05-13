@@ -7,4 +7,4 @@ services:
       dockerfile: Dockerfile
     container_name: ReactJS
     ports:
-      - "3000:80"
+      - "3001:80"
