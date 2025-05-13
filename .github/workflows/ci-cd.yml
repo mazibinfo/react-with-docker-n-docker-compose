@@ -20,4 +20,4 @@ jobs:
           git pull 
           docker compose down
           docker compose up --build -d
-          docker images prune -f
+          docker image prune -f -a
