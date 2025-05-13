@@ -10,8 +10,8 @@ jobs:
     runs-on: self-hosted  # 👈 This runs on your local GitHub Actions runner
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      # - name: Checkout code
+      #   uses: actions/checkout@v2
 
       - name: Deploy Application
         run: |
